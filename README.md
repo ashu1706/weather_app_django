@@ -26,7 +26,7 @@ Welcome to the Weather App, a Django-based web application that allows users to 
 
 # Getting Started
 
-# Prerequisites
+**Prerequisites**
 
 -> Python (>= 3.7)
 
@@ -36,23 +36,27 @@ Welcome to the Weather App, a Django-based web application that allows users to 
 
 # Installation
 
-# 1. Clone the repository:
-
+1. Clone the repository:
+```bash
 git clone https://github.com/ashu1706/weather_app_django.git
 cd weather_app_django
+```
 
-# 2. Set up a virtual environment:
-
+2. Set up a virtual environment:
+```bash
 python -m venv venv
 source venv/bin/activate   # For Windows: venv\Scripts\activate
+```
 
-# 3. Install dependencies:
-
+3. Install dependencies
+```bash
 pip install -r requirements.txt
+```
 
-# 4. Add your API key:
-
+4. Add your API key:
+```bash
 Create a .env file in the project root.
+```
 
 Add the following line:
 
@@ -60,17 +64,20 @@ WEATHER_API_KEY=your_api_key_here
 
 Replace your_api_key_here with the actual API key from OpenWeatherMap.
 
-# 5. Run migrations:
-
+5. Run migrations:
+```bash
 python manage.py migrate
+```
 
-# 6. Start the development server:
-
+6. Start the development server:
+```bash
 python manage.py runserver
+```
 
-# 7. Open your browser and visit:
-
+7. Open your browser and visit
+```bash
 http://127.0.0.1:8000
+```
 
 # How to Use
 
